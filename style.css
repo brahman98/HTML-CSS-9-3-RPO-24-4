@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lato";
 }
 
 /* HEADER */
@@ -102,26 +103,43 @@
     gap: 30px;
 }
 
-.offer__small1 {
+.offer__small1, .offer__small2, .offer__small3 {
     width: 360px;
     height: 260px;
     background-image: linear-gradient(rgba(33, 22, 22, 0.5), rgba(33, 22, 22, 0.5)), url(img/offer1.png);
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.offer__small1 span, .offer__small2 span, .offer__small3 span {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: bold;
 }
 .offer__small2 {
-    width: 360px;
-    height: 260px;
     background-image: linear-gradient(rgba(33, 22, 22, 0.5), rgba(33, 22, 22, 0.5)),  url(img/offer2.png);
 }
 .offer__small3 {
-    width: 360px;
-    height: 260px;
     background-image: linear-gradient(rgba(33, 22, 22, 0.5), rgba(33, 22, 22, 0.5)),  url(img/offer3.png);
 }
 .offer__big {
     width: 1140px;
     height: 180px;
     background-image: linear-gradient(rgba(33, 22, 22, 0.5), rgba(33, 22, 22, 0.5)),  url(img/offer4.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.offer__big span {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 
@@ -129,7 +147,37 @@
 .section__products {
     height: 300px;
     background: #fff;
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.products__title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #222;
+}
+.products__p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #9F9F9F;
+}
+.products__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #F26376;
+    width: 212px;
+    height: 48px;
+    border: 1px solid #FF6A6A;
+}
+
+/* FEATURE */
 .section__feature {
     height: 341px;
     background: #222224;
