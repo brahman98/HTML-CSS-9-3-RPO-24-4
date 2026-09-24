@@ -176,6 +176,16 @@
     height: 341px;
     background: #222224;
 }
+.feature__center {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.feature__item {
+    width: 360px;
+    color: white;
+}
 
 /* FOOTER */
 .footer__top {
